@@ -1,0 +1,17 @@
+.heading{
+    width: 100%;
+    font-family: Verdana;
+}
+body{
+    overflow: none;
+}
+.big_image{
+    width: 100%;
+    height: 510px !important;
+}
+.modal-dialog{
+    width: 90%;
+}
+.modal-body{
+    height: 900px;
+}
