@@ -166,7 +166,6 @@ function move(){
   if (ball.x-2.5*ball.r/2< 0){
   if (ball.y >= paddle1Y&& ball.y <= paddle1Y + paddle1Height) {
     ball.dx = -ball.dx+0.5; 
-    
   }
   else{
     pcscore++;
@@ -183,7 +182,7 @@ if(pcscore ==4){
     stroke("white");
     textSize(25);
     text("Game Over!",width/2,height/2);
-    text("Reload the page!",width/2,height/2+30)
+    text("Press the start button to start the gamer again.",width/2,height/2+30)
     noLoop();
     pcscore = 0;
  }
